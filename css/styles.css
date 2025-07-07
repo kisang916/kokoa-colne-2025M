@@ -3,8 +3,10 @@
 @import "components/status-bar.css";
 @import "variables.css";
 @import "screens/login.css";
+@import "components/nav-bar.css";
 
 body {
+    height: 1000vh;
     font-family: 'Open Sans', sans-serif;
 }
 
