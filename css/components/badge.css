@@ -1,0 +1,50 @@
+.badge {
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 600;
+}
+
+.redbull {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 600;
+}
+
+.badge__xs {
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 10px;
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+}
+
+.badge__settings {
+    background-color: tomato;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+}
