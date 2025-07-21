@@ -5,10 +5,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Settings - kokoa clone</title>
+    <title>Chat w/kisang - kokoa clone</title>
 </head>
 
-<body>
+<body id="chat-screen">
 
     <div class="status-bar">
         <div class="status-bar__column">
@@ -29,68 +29,48 @@
 
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="chats.html">
                 <i class="fa-solid fa-angle-left fa-2x"></i>
             </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Settings</h1>
+            <h1 class="alt-header__title">기상</h1>
         </div>
         <div class="alt-header__column">
-            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+            <span><i class="fa-solid fa-bars fa-lg"></i></span>
         </div>
     </header>
 
-    <main class="main-screen">
-        <ul class="settings-list">
-            <li class="settings-setting">
-                <div class="settings__setting-column">
-                    <i class="fa-solid fa-bullhorn"></i>
-                    <span>Notices</span>
-                </div>
-                <div class="settings__setting-column"></div>
-            </li>
-            <li class="settings-setting">
-                <div class="settings__setting-column">
-                    <i class="fa-solid fa-flask"></i>
-                    <span>kokoa Lab</span>
-                </div>
-                <div class="settings__setting-column"></div>
-            </li>
-            <li class="settings-setting">
-                <div class="settings__setting-column">
-                    <i class="fa-solid fa-circle-info"></i>
-                    <span>version</span>
-                </div>
-                <div class="settings__setting-column">Latest Version</div>
-            </li>
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday , june 30,2020
+        </div>
 
-        </ul>
+        <div class="message-row">
+            <img
+                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQCL9eyWoLXmTfSGwTvH2ZVFMCQIyy7SqD-nyaFbrukZRE0IAKAf3kvZQyVM0d0QItdemcDT9Kkm9yXC-zxMYoxsQ">
+            <div class="message-row__content">
+                <span class="message__author">Kisang</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi nice to meet you!</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+
+        </div>
     </main>
-    <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__btn">
-                <a class="nav__link" href="friends.html">
-                    <i class="fa-regular fa-user fa-2x"></i>
-                </a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="chat.html">
-                    <span class="nav__notification badge">1</span>
-                    <i class="fa-regular fa-comment fa-2x"></i>
-                </a>
-
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="find.html"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
-            </li>
-            <li class="nav__btn">
-                <a class="nav__link" href="more.html">
-                    <span class="nav__notification"></span>
-                    <i class="fa-solid fa-ellipsis fa-2x"></i></a>
-            </li>
-        </ul>
-    </nav>
 
     <script src="https://kit.fontawesome.com/8a11fb2819.js" crossorigin="anonymous"></script>
 </body>
